@@ -1,0 +1,26 @@
+{
+  "name": "samien/imaging",
+  "description": "imagine how to process images on the fly",
+  "authors": [
+    {
+      "name": "samin zavarkesh",
+      "email": "samin.zavarkesh@gmail.com"
+    }
+  ],
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Samien\\Imaging\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "ext-ctype": "*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1",
+    "friendsofphp/php-cs-fixer": "^3.68"
+  }
+}
